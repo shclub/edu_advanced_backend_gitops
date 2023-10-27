@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend-springboot
-        image: ghcr.io/shclub/edu12-backend 
+        image: ghcr.io/shclub/edu12-4 
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: "local"

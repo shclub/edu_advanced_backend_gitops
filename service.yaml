@@ -3,7 +3,7 @@ kind: Service
 metadata:	
   name: backend-springboot
   labels: # service monitor 의 selector 를 위하여 생성
-    app: backend
+    app: backend-springboot
 spec:	
   ports:	
   - port: 80	

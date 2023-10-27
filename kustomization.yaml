@@ -4,5 +4,5 @@ resources:
 - deployment.yaml
 - service.yaml
 images:
-- name: ghcr.io/shclub/edu12-backend
+- name: ghcr.io/shclub/edu12-4
   newTag: "v1"

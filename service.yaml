@@ -7,5 +7,5 @@ spec:
   - port: 80	
     targetPort: 8080	
   selector:	
-    app: backend
+    app: backend-springboot
   type: ClusterIP

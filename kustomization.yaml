@@ -5,4 +5,4 @@ resources:
 - service.yaml
 images:
 - name: ghcr.io/shclub/edu12-4
-  newTag: "v6"
+  newTag: "v7"

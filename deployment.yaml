@@ -17,10 +17,10 @@ spec:
       - name: backend-springboot
         image: ghcr.io/shclub/edu12-4 
         env:
-        - name: SPRING_PROFILES_ACTIVE
-          value: "dev"
-        - name: JAVA_TOOL_OPTIONS
-          value: "-javaagent:elastic-apm-agent-1.43.0.jar -Delastic.apm.server_url=apm-server.elastic:8200 -Delastic.apm.environment=dev -Dservice_name=backend-springboot -Delastic.apm.secret_token="    ## secret_token 값은 비워둠
+          - name: SPRING_PROFILES_ACTIVE
+            value: "dev"
+          - name: JAVA_TOOL_OPTIONS
+            value: "-javaagent:elastic-apm-agent-1.43.0.jar -Delastic.apm.server_url=apm-server.elastic:8200 -Delastic.apm.environment=dev -Dservice_name=backend-springboot -Delastic.apm.secret_token="    ## secret_token 값은 비워둠
         #- name: SPRING_DATASOURCE_USERNAME
         #  value: "edu"
         #- name: SPRING_DATASOURCE_PASSWORD

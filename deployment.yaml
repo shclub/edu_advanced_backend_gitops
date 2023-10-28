@@ -20,7 +20,7 @@ spec:
           - name: SPRING_PROFILES_ACTIVE
             value: "dev"
           - name: JAVA_TOOL_OPTIONS 
-            value: "-javaagent:elastic-apm-agent-1.43.0.jar -Delastic.apm.server_url=http://apm-server.elastic.8200 -Delastic.apm.environment=dev -Dservice_name=backend-springboot -Delastic.apm.secret_token="    ## secret_token 값은 비워둠
+            value: "-javaagent:elastic-apm-agent-1.43.0.jar -Delastic.apm.server_url=http://apm-server.elastic:8200 -Delastic.apm.environment=dev -Dservice_name=backend-springboot -Delastic.apm.secret_token="    ## secret_token 값은 비워둠
         #         
         #    value: "-javaagent:elastic-apm-agent-1.43.0.jar -Delastic.apm.server_url=http://192.168.1.148:30010 -Delastic.apm.environment=dev -Dservice_name=backend-springboot -Delastic.apm.secret_token="    ## secret_token 값은 비워둠
         #- name: SPRING_DATASOURCE_USERNAME

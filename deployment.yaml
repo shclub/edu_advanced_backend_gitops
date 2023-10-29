@@ -15,7 +15,8 @@ spec:
     spec:
       containers:
       - name: backend
-        image: ghcr.io/shclub/edu12-4 
+        image: ghcr.io/shclub/edu12-4
+        imagePullPolicy: Always
         env:
           - name: SPRING_PROFILES_ACTIVE
             value: "dev"
